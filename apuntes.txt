@@ -1,0 +1,23 @@
+.gitignore 
+	arquivo no que se lle indica a git o que queremos que ignore.
+	Ex: .class que non queremos que se engadan no commit.
+
+git commit --ammend
+	abre o editor para editar o texto do commit e tamen serve para engadir cousas ao commit.
+
+git stash
+	pila de traballo temporal de git,
+	é util cando traballas e tes unha interrupcion tipo tes traballo sen rematar e non queremos facer commit.
+	fariase un git stash e logo xa se faria o checkout para outro punto do noso repositorio.
+
+git revert
+	revirte o commit ultimo que se realizou (se non engadimos nada).
+
+git cherry-pick
+	copia un commit a outro lugar que se queira:
+	Exemplo: cando arranxamos algo e pasamos a outra rama que ten ese fallo, pois copiamos o commit ese(o arranxado),
+	e traelo ao directorio donde te atopas.
+
+git rebase -i
+	rebase interactivo
+	
